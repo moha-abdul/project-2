@@ -1,5 +1,24 @@
+.container {
+  height: 100;
+  width: 100;
+}
 #header {
-  background-image: url("landing.jpg");
+  background-image: url("../mpft-ip/ip2/assets/backgrounds/landing.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#breakfast {
+  background-image: url("../mpft-ip/ip2/assets/foodtop/breakfast.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#lunch {
+  background-image: url("../mpft-ip/ip2/assets/foodtop/lunch.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#dinner {
+  background-image: url("../mpft-ip/ip2/assets/foodtop/dinner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
