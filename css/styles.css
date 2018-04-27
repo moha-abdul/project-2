@@ -6,19 +6,33 @@
   background-image: url("../mpft-ip/ip2/assets/backgrounds/landing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 #breakfast {
   background-image: url("../mpft-ip/ip2/assets/foodtop/breakfast.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
+  color: #FFFFFF;
 }
 #lunch {
   background-image: url("../mpft-ip/ip2/assets/foodtop/lunch.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
 }
 #dinner {
   background-image: url("../mpft-ip/ip2/assets/foodtop/dinner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
+  text-align: center;
+}
+#minirow {
+  text-align: center;
+}
+#partytime {
+  background-color: #EF5050;
+}
+#happyhour {
+  background-color: #FFFFFF;
 }
