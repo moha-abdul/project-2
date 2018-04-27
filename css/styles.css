@@ -7,6 +7,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  color: #FFFFFF;
 }
 #breakfast {
   background-image: url("../mpft-ip/ip2/assets/foodtop/breakfast.jpg");
@@ -14,25 +15,36 @@
   background-size: cover;
   text-align: center;
   color: #FFFFFF;
+  height: 200px;
 }
 #lunch {
   background-image: url("../mpft-ip/ip2/assets/foodtop/lunch.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  color: #FFFFFF;
 }
 #dinner {
   background-image: url("../mpft-ip/ip2/assets/foodtop/dinner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
+  color: #FFFFFF;
 }
 #minirow {
   text-align: center;
 }
 #partytime {
   background-color: #EF5050;
+  color: #FFFFFF;
 }
 #happyhour {
   background-color: #FFFFFF;
+  color: #000000;
+}
+.fastfood-image {
+  float: left;
+}
+.drinks-image {
+  float: right;
 }
