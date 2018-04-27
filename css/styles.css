@@ -1,6 +1,7 @@
 .container {
   height: 100;
   width: 100;
+  font-family: cursive;
 }
 #header {
   background-image: url("../mpft-ip/ip2/assets/backgrounds/landing.jpg");
@@ -16,6 +17,24 @@
   text-align: center;
   color: #FFFFFF;
   height: 200px;
+}
+.breakfast {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.lunch {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.dinner {
+  padding-left: 75px;
+  padding-right: 75px;
+  padding-top: 75px;
+  padding-bottom: 75px;
 }
 #lunch {
   background-image: url("../mpft-ip/ip2/assets/foodtop/lunch.jpg");
@@ -37,14 +56,21 @@
 #partytime {
   background-color: #EF5050;
   color: #FFFFFF;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
 #happyhour {
   background-color: #FFFFFF;
   color: #000000;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 25px;
+  padding-bottom: 25px;
 }
-.fastfood-image {
-  float: left;
-}
-.drinks-image {
-  float: right;
+#square {
+  background-image: url("../mpft-ip/ip2/assets/backgrounds/foodsBg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
 }
