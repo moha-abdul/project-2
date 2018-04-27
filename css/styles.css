@@ -1,6 +1,4 @@
 .container {
-  height: 100;
-  width: 100;
   font-family: cursive;
 }
 #header {
@@ -69,8 +67,8 @@
   padding-top: 25px;
   padding-bottom: 25px;
 }
-#square {
-  background-image: url("../mpft-ip/ip2/assets/backgrounds/foodsBg.jpg");
+.section4 {
+  background-color: url("../mpft-ip/ip2/assets/backgrounds/foodsBg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
