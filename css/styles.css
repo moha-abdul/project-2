@@ -68,7 +68,22 @@
   padding-bottom: 25px;
 }
 .section4 {
-  background-color: url("../images/assets/backgrounds/foodsBg.jpg");
+  background-color: url("../images/assets/backgrounds/foodsBg.jpeg");
   background-repeat: no-repeat;
   background-size: cover;
+}
+.logo {
+  text-align: center;
+}
+#subscribe {
+  background-color: #D97338;
+  color: #FFFFFF;
+}
+.subscribe {
+  background-image: url("../images/assets/backgrounds/subscribe.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #FFFFFF;
+  text-align: center;
+  height: 250px;
 }
