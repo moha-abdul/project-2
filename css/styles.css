@@ -2,14 +2,14 @@
   font-family: cursive;
 }
 #header {
-  background-image: url("../mpft-ip/ip2/assets/backgrounds/landing.jpg");
+  background-image: url("../images/assets/backgrounds/landing.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   color: #FFFFFF;
 }
 #breakfast {
-  background-image: url("../mpft-ip/ip2/assets/foodtop/breakfast.jpg");
+  background-image: url("../images/assets/foodtop/breakfast.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -35,14 +35,14 @@
   padding-bottom: 75px;
 }
 #lunch {
-  background-image: url("../mpft-ip/ip2/assets/foodtop/lunch.jpg");
+  background-image: url("../images/assets/foodtop/lunch.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   color: #FFFFFF;
 }
 #dinner {
-  background-image: url("../mpft-ip/ip2/assets/foodtop/dinner.jpg");
+  background-image: url("../images/assets/foodtop/dinner.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
@@ -68,7 +68,7 @@
   padding-bottom: 25px;
 }
 .section4 {
-  background-color: url("../mpft-ip/ip2/assets/backgrounds/foodsBg.jpg");
+  background-color: url("../images/assets/backgrounds/foodsBg.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
