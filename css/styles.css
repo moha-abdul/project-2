@@ -1,5 +1,6 @@
 .container {
   font-family: cursive;
+  height: 100%;
 }
 #header {
   background-image: url("../images/assets/backgrounds/landing.jpg");
@@ -97,12 +98,54 @@
   padding-bottom: 50px;
   height: 200px;
 }
-.logo {
+.my-logos {
   text-align: center;
+  background-color: #D97338;
+  height: 300px;
+  color: #FFFFFF;
+  width: 100%;
+}
+#email {
+  float: left;
+  margin-left: 300px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 80px;
+  padding-left: 30px;
+  color: #FFFFFF;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 3px;
 }
 #subscribe {
   background-color: #D97338;
   color: #FFFFFF;
+  float: right;
+  margin-right: 300px;
+  padding-right: 50px;
+  padding-left: 10;
+  padding-right: 10;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-top: 0;
+  border-bottom: 0;
+  border-left: 0;
+  border-right: 0;
+  border-radius: 3px;
+}
+input {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+#customers {
+  height: 200px;
+}
+.delivery {
+  padding-top: 60px;
+}
+.about {
+  height: 100px;
 }
 .subscribe {
   background-image: url("../images/assets/backgrounds/subscribe.jpeg");
@@ -111,4 +154,10 @@
   color: #FFFFFF;
   text-align: center;
   height: 250px;
+}
+#fastfood-text {
+  text-align: left;
+}
+#drinks-text {
+  text-align: right;
 }
