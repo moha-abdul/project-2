@@ -88,9 +88,10 @@
   padding-top: 20px;
   height: 600px;
 }
-#section4 {
-  background-color: url("../images/assets/fastfood/chickenPizza.jpg");
+.section4 {
+  background-color: url("../images/assets/backgrounds/foodsBg.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
   height: 300px;
 }
 .gallery {
@@ -103,7 +104,11 @@
   background-color: #D97338;
   height: 300px;
   color: #FFFFFF;
-  width: 100%;
+}
+.social {
+  text-align: center;
+  display: inline-block;
+
 }
 #email {
   float: left;
@@ -135,7 +140,7 @@
   border-radius: 3px;
 }
 input {
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.25);
 }
 #customers {
   height: 200px;
@@ -165,5 +170,32 @@ input {
   border-width: 3px, 3px, 3px, 3px;
   border-color: #D97338;
   color: #D97338;
-
+}
+#drink1 {
+  padding-right: 0;
+  padding-left: 25px;
+  margin-right: 0;
+  float: left;
+  width: 50%;
+}
+#drink2 {
+  padding-left: 0;
+  margin-left: 0;
+  float: right;
+  width: 50%;
+}
+.drinks-image {
+  width: 100%;
+}
+#customers {
+  height: 300px;
+  content-align: 70%;
+}
+.about {
+  height: 200px;
+  border-style: dotted;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 70%;
+  content-align: center;
 }
