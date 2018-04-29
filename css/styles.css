@@ -125,8 +125,7 @@
   float: right;
   margin-right: 300px;
   padding-right: 50px;
-  padding-left: 10;
-  padding-right: 10;
+  padding-left: 50px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-top: 0;
@@ -160,4 +159,11 @@ input {
 }
 #drinks-text {
   text-align: right;
+}
+.gallery-button {
+  background-color: #FFFFFF;
+  border-width: 3px, 3px, 3px, 3px;
+  border-color: #D97338;
+  color: #D97338;
+
 }
