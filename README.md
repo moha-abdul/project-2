@@ -6,7 +6,6 @@ The project is a landing page of a catering website named Anita's Kitchen.
 
 The project involved HTML, CSS and Bootstrap. The index.html file is in the root folder together with CSS and images folder. The CSS folder contains custom styles.css and bootstrap.css files.
 
-###Link to site
 https://moha-abdul.github.io/project-2/
 
 MIT License
