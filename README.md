@@ -1,8 +1,22 @@
-### Anita's Kitchen
+## Anita's Kitchen
+The project is a landing webpage for a restaurant called Anita's Kitchen. The webpage shows the foods served in the restaurant.
 
-Mohammed Abdullahi
+### AuthorMohammed Abdullahi
 
 The project is a landing page of a catering website named Anita's Kitchen.
+### Prerequisites
+You need to install IDE(Atom) and web browser(Google Chrome).
+
+### Installing
+-You need an IDE, preferably Atom or Sublime Text for editing.
+-A web browser, I used Chrome browser.
+
+
+### Built With
+HTML - The markup language used to build the webpage.
+CSS -The styling language used to style the content.
+Bootstrap - The CSS framework used
+Atom - The IDE used in the project.
 
 The project involved HTML, CSS and Bootstrap. The index.html file is in the root folder together with CSS and images folder. The CSS folder contains custom styles.css and bootstrap.css files.
 

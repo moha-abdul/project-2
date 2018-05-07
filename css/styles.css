@@ -1,5 +1,5 @@
-.container-fluid{
-  font-family: cursive;
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+.container-fluid {
   height: 100%;
 }
 .jumbotron {
@@ -8,23 +8,53 @@
   height: 636px;
   text-align: center;
   color: #FFFFFF;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  width: 100%;
+  border-radius: 0;
 }
 .logobig {
-  padding-left: 400px;
-  padding-right: 400px;
+  height: 284px;
+  width: 284px;
+}
+.logo-image {
   padding-top: 100px;
-  padding-bottom: 300px;
+  padding-right: 300px;
+  padding-bottom: 400px;
+  padding-left: 300px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.h1-logo {
+  padding-top: 45px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  color: #FFFFFF;
+  height: auto;
 }
 .meals {
   height: 200px;
 }
-#breakfast {
-  background-image: url("../images/assets/foodtop/breakfast.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  text-align: center;
+#minirow:hover #partytime{
+  background-color: #FFFFFF;
+  color: #000000;
+}
+#minirow:hover #happyhour {
+  background-color: #D97338;
   color: #FFFFFF;
-  height: 200px;
 }
 .breakfast {
   padding-left: 75px;
@@ -44,12 +74,37 @@
   padding-top: 75px;
   padding-bottom: 75px;
 }
-#lunch {
-  background-image: url("../images/assets/foodtop/dinner2.jpg");
+#breakfast {
+  background-image: url("../images/assets/foodtop/breakfast.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   text-align: center;
   color: #FFFFFF;
+  height: 210px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+#lunch {
+  background-image: url("../images/assets/foodtop/lunch.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  color: #FFFFFF;
+  height: 210px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 #dinner {
   background-image: url("../images/assets/foodtop/dinner.jpg");
@@ -57,31 +112,61 @@
   background-size: cover;
   text-align: center;
   color: #FFFFFF;
+  height: 210px;
+  margin: 0 0 0 0;
+
+  padding: 0 0 0 0;
+}
+#breakfast:hover {
+  background-color: rgba(232, 201, 201, 0.3);
+  color: #0C0C0C;
+}
+#lunch:hover {
+  background-color: rgba(232, 201, 201, 0.3);
+  color: #0C0C0C;
+}
+#dinner:hover {
+  background-color: rgba(232, 201, 201. 0.3);
+  color: #0C0C0C;
 }
 #minirow {
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+  height: 210px;
 }
 #partytime {
   background-color: #D97338;
   color: #FFFFFF;
   text-align: center;
-  height: 100px;
-  padding-left: 75px;
-  padding-right: 75px;
-  padding-top: 30px;
-  padding-bottom: 30px;
+  height: 105px;
+  padding: 30px 75px 30px 75px;
+  margin: 0 0 0 0;
 }
 #happyhour {
   background-color: #FFFFFF;
   color: #000000;
   text-align: center;
-  height: 100px;
+  height: 105px;
   padding-left: 70px;
   padding-right: 70px;
   padding-top: 30px;
   padding-bottom: 30px;
+  margin: 0 0 0 0;
 }
-#white-section {
+#happyhour:hover {
+  background-color: #D97338;
+  color: #FFFFFF;
+}
+#partytime:hover {
+  color: #000000;
+  background-color: #FFFFFF;
+}
+.fast-foods {
   padding-top: 75px;
+  height: 600px;
+}
+.drinks {
+  padding-top: 25px;
   height: 600px;
 }
 #white-section2 {
@@ -93,36 +178,98 @@
   background-repeat: no-repeat;
   background-size: cover;
   height: 599px;
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 .gallery {
-  height: 400px;
+  height: 350px;
   margin-top: 100px;
-  margin-right: 75px;
+  margin-right: 0;
   margin-bottom: 100px;
-  margin-left: 75px;
+  margin-left: 65px;
+  padding: 0 0 0 0;
   background-color: #fff;
   text-align: center;
+  width: 90%;
 }
-img {
-  margin-top: 90px;
+.navigate{
+  padding: 0 0 0 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 25px;
+  margin-left: 0;
+  height: 50px;
+  width: 100%;
+}
+.box1 {
+  padding-top: 10px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0 0 0 0;
+  border-right: solid 1px #828181;
+}
+.box2 {
+  padding-top: 10px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin: 0 0 0 0;
+  border-left: solid 1px #828181;
+  border-right: solid 1px #828181;
+  border-bottom: solid 1px #828181;
+  background-color: #B9B8B8;
+}
+.box3 {
+  padding-top: 10px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  border-left: solid 1px #828181;
+  border-right: solid 1px #828181;
+  border-bottom: solid 1px #828181;
+  background-color: #B9B8B8;
+}
+.box4 {
+  padding-top: 10px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+  border-left: solid 1px #828181;
+  border-right: solid 1px #828181;
+  border-bottom: solid 1px #828181;
+  background-color: #B9B8B8;
+
 }
 .my-logos {
   text-align: center;
   background-color: #D97338;
-  height: 300px;
+  height: 400px;
   color: #FFFFFF;
 }
-.social {
-  text-align: center;
-  display: inline-block;
-
+.logo-white {
+  padding-top: 5px;
 }
 #email {
   float: left;
-  margin-left: 300px;
+  margin-left: 395px;
   padding-top: 5px;
   padding-bottom: 5px;
-  padding-right: 80px;
+  padding-right: 90px;
   padding-left: 30px;
   color: #FFFFFF;
   border-top: 0;
@@ -135,9 +282,9 @@ img {
   background-color: #D97338;
   color: #FFFFFF;
   float: right;
-  margin-right: 300px;
+  margin-right: 395px;
   padding-right: 50px;
-  padding-left: 50px;
+  padding-left: 65px;
   padding-top: 5px;
   padding-bottom: 5px;
   border-top: 0;
@@ -153,7 +300,7 @@ input {
   height: 200px;
 }
 .delivery {
-  padding-top: 60px;
+  padding-top: 80px;
 }
 .about {
   height: 100px;
@@ -164,19 +311,163 @@ input {
   background-size: cover;
   color: #FFFFFF;
   text-align: center;
-  height: 250px;
+  height: 301px;
 }
-#fastfood-text {
-  text-align: left;
+.food {
+  height: 450px;
+  width: 550px;
+  padding-top: 30px;
+  padding-right: 0px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  margin-top: 5px;
+  margin-right: 5px;
+  margin-bottom: 5px;
+  margin-left: 100px;
 }
-#drinks-text {
+.drink {
+  height: 450px;
+  width: 560px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 20px;
+}
+.fastfood-text {
   text-align: right;
+  height: 450px;
+  width: 500px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.drinks-text {
+  text-align: left;
+  height: 450px;
+  width: 500px;
+  padding-top: 15px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 100px;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 125px;
 }
 .gallery-button {
   background-color: #FFFFFF;
   border-width: 3px, 3px, 3px, 3px;
   border-color: #D97338;
   color: #D97338;
+  width: 175px;
+  padding-right: 40px;
+}
+.fa {
+  height: 20px;
+  width: 20px;
+  color: #D97338;
+}
+.stuff {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+p.stuff {
+  font-size: 14px;
+  color: #D97338;
+}
+#right {
+  height: 20px;
+  width: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: #5A2020;
+}
+#left {
+  height: 20px;
+  width: 20px;
+  padding-top: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  background-color: #5A2020;
+}
+div {
+  display: inline-block;
+}
+#img1 {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 45px;
+  margin-top: 0;
+  margin-right: 70px;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+#img3 {
+  padding-top: 0;
+  padding-right: 45px;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 70px;
+}
+.img1 {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.img2 {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.img3 {
+  padding-top: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
 }
 #drink1 {
   padding-right: 0;
@@ -195,11 +486,11 @@ input {
   width: 100%;
 }
 #customers {
-  height: 300px;
+  height: 350px;
   content-align: 70%;
 }
 .about {
-  height: 200px;
+  height: 250px;
   margin-top: 50px;
   margin-bottom: 50px;
   margin-left: 175px;
@@ -214,7 +505,48 @@ input {
 }
 .menu {
   padding: 15px 20px 15px 20px;
+  border-left: 2px solid #ECDEDE;
 }
-h4.customers {
+.customers-h4, .menu-h4{
   color: #D97338;
+}
+.logo-footer {
+  padding-top: 40px;
+  padding-right: 0;
+  padding-bottom: 0;
+  padding-left: 0;
+  margin-top: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  margin-left: 0;
+}
+.social {
+  text-align: center;
+  display: inline-block;
+  margin: 0 auto;
+  padding-bottom: 100px;
+}
+.p-footer {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+.social-images {
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+#facebook {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#pinterest {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+#twitter {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.p-footer2 {
+  padding-top: 40px;
+  padding-bottom: 30px;
 }

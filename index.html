@@ -6,14 +6,17 @@
   <link rel="stylesheet" href="css/styles.css">
   <script src="js/jquery-3.3.1.js"></script>
   <script src="js/scripts.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
   <div class="container-fluid">
     <div class="jumbotron" id="header">
+      <div class="logo-image">
         <img src="images/assets/logoBig.png" class="logobig">
-        <h2>We Provide The Best Food<br> At <strong>Right Price</strong></h2>
+        <h1 class="h1-logo">We Provide The Best Food<br> At <strong>Right Price</strong></h1>
       </div>
     </div>
+  </div>
 
     <div class="row meals">
       <div class="col-md-3" id="minirow">
@@ -37,63 +40,61 @@
       </div>
     </div>
 
-    <div class="row" id="white-section">
-      <div class="col-md-6">
-        <div class="well fastfood-image">
-          <div class="row">
-            <div class="col-md-12">
-              <img src="images/assets/fastFood1.jpg">
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12">
-              <img src="images/assets/fastFood2.jpg">
-            </div>
-          </div>
-        </div>
+  <div class="row fast-foods">
+    <div class="col-md-6">
+      <div class="img-thumbnail food">
+        <img src="images/assets/fastFood1.jpg">
+        <img src="images/assets/fastFood2.jpg">
       </div>
-
-      <div class="col-md-6" id="fastfood-text">
+    </div>
+    <div class="col-md-6">
+      <div class="fastfood-text">
         <h2>Fast Foods</h2>
-        <h4>Enjoy our drinks please</h4>
+        <h4>Enjoy our fast foods please</h4>
         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
           Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <button type="button" name="button"class="btn btn-default gallery-button" >VIEW GALLERY</button>
+          <button type="button" name="button"class="btn btn-default gallery-button" >VIEW GALLERY<i class="fa fa-angle-right" style="font-size:24px"></i></button>
       </div>
     </div>
+  </div>
 
-    <div class="row" id="white-section2">
-      <div class="col-md-6" id="drinks-text">
+  <div class="row drinks">
+    <div class="col-md-6">
+      <div class="drinks-text">
         <h2>Drinks</h2>
-        <h4>Enjoy our food please</h4>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-          Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        <h4>Enjoy our drinks please</h4>
+        <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
           Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
           Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-          <button type="button" name="button" class="btn btn-default gallery-button">VIEW GALLERY</button>
-      </div>
-      <div class="col-md-6">
-        <div class="well" >
-          <div class="row drinks-image thumbnail">
-            <div class="col-md-6" id="drink1">
-              <img src="images/assets/drink1.jpg">
-            </div>
-            <div class="col-md-6" id="drink2">
-              <img src="images/assets/drink2.jpg">
-            </div>
-          </div>
-        </div>
+          <button type="button" name="button"class="btn btn-default gallery-button" >VIEW GALLERY<i class="fa fa-angle-right" style="font-size:24px"></i></button>
       </div>
     </div>
+    <div class="col-md-6">
+      <div class="img-thumbnail drink">
+        <img src="images/assets/drink1.jpg">
+        <img src="images/assets/drink2.jpg">
+      </div>
+    </div>
+  </div>
 
     <div class="row">
       <div class="col-md-12 section4" >
         <div class="gallery">
-          <img src="images/assets/fastfood/chickenBurger.jpg">
-          <img src="images/assets/fastfood/beefBurger.jpg">
-          <img src="images/assets/fastfood/chickenPizza.jpg">
+          <div class="row navigate">
+
+            <div class="col-md-3 box1">Fast Food</div>
+            <div class="col-md-3 box2">Drinks</div>
+            <div class="col-md-3 box3">Chicken</div>
+            <div class="col-md-3 box4">Rice</div>
+
+          </div>
+          <div class="stuff">
+            <div id="img1"><i class="fa fa-chevron-left"></i><img src="images/assets/fastfood/chickenBurger.jpg" class="img1"><p class="stuff">Chicken Burger</p></div>
+            <div><img src="images/assets/fastfood/beefBurger.jpg" class="img2"><p class="stuff">Beef Burger</p></div>
+            <div id="img3"><img src="images/assets/fastfood/chickenPizza.jpg" class="img3"><i class="fa fa-chevron-right"></i><p class="stuff">Chicken Burger</p></div>
+          </div>
         </div>
       </div>
     </div>
@@ -103,13 +104,21 @@
         <div class="well about">
           <div class="row">
             <div class="col-md-8 customers">
-              <h4>Our Happy customers</h4>
+              <h4 class="customers-h4">Our Happy customers</h4>
               <h5>Our Customers</h5>
-              <p>great food bla bla bla jddh hdhhd hdhd hdgd hsusjkskkjs</p>
+              <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              <div class="customer-image">
+                <i class="fa fa-chevron-left"></i>
+                <img src="images/assets/customers/p1.png">
+                <img src="images/assets/customers/p2.png">
+                <img src="images/assets/customers/p3.png">
+                <i class="fa fa-chevron-right"></i>
+              </div>
             </div>
             <div class="col-md-4 menu">
-              <h4>About Menu</h4>
-              <p>We are team of great food bla bla bla jddh hdhhd hdhd hdgd hsusjkskkjs</p>
+              <h4 class="menu-h4">About Menu</h4>
+              <p>We are a team of lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
             </div>
           </div>
 
@@ -133,21 +142,16 @@
     <div class="row my-logos">
       <div class="col-md-12">
 
-        <h4><img src="images/assets/footerlogos/logo_white.png">MENU</h4>
-        <p>Thats what we are</p>
+        <h1 class="logo-footer"><img src="images/assets/footerlogos/logo_white.png" class="logo-white">MENU</h1>
+        <h4 class="p-footer">Thats what we are</h4>
       </div>
       <div class="social">
-        <div>
-          <img src="images/assets/footerlogos/facebook.png" class="logo">
+        <div class="social-images">
+          <img src="images/assets/footerlogos/facebook.png" class="logo" id="facebook">
+          <img src="images/assets/footerlogos/pinterest.png" class="logo" id="pinterest">
+          <img src="images/assets/footerlogos/twitter.png" class="logo" id="twitter">
         </div>
-        <div>
-          <img src="images/assets/footerlogos/twitter.png" class="logo">
-        </div>
-        <div>
-          <img src="images/assets/footerlogos/pinterest.png" class="logo">
-        </div>
-        <div>
-          <p>2016 Menu Restaurant</p>
+          <p class="p-footer2">2016 Menu Restaurant</p>
         </div>
       </div>
     </div>
