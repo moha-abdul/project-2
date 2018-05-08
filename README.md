@@ -1,7 +1,7 @@
 ## Anita's Kitchen
 The project is a landing webpage for a restaurant called Anita's Kitchen. The webpage shows the foods served in the restaurant.
 
-### AuthorMohammed Abdullahi
+### Author Mohammed Abdullahi
 
 The project is a landing page of a catering website named Anita's Kitchen.
 ### Prerequisites

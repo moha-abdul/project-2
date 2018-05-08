@@ -48,6 +48,12 @@
 .meals {
   height: 200px;
 }
+.food:hover {
+    box-shadow: 2px 2px 3px 5px rgba(0, 140, 186);
+}
+.drink:hover {
+    box-shadow: 2px 2px 3px 5px rgba(0, 140, 186);
+}
 #minirow:hover #partytime{
   background-color: #FFFFFF;
   color: #000000;
